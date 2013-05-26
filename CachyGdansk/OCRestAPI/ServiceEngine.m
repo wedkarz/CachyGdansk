@@ -9,7 +9,7 @@
 #import "ServiceEngine.h"
 #import "AFNetworking.h"
 
-#define OPENCACHING_CONSUMER_KEY @""
+#define OPENCACHING_CONSUMER_KEY @"yFLNCjsYwydcBpCHwQgt"
 
 @interface ServiceEngine() {
     NSString *_serviceURL;

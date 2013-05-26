@@ -46,6 +46,43 @@
 		57D84AAB1747B77300B84754 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57D84AAA1747B77300B84754 /* Security.framework */; };
 		57D84AAD1747B77800B84754 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57D84AAC1747B77800B84754 /* StoreKit.framework */; };
 		57D84AAF1747B78500B84754 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57D84AAE1747B78500B84754 /* SystemConfiguration.framework */; };
+		57D84AB31747B8D400B84754 /* Geocache.m in Sources */ = {isa = PBXBuildFile; fileRef = 57D84AB21747B8D400B84754 /* Geocache.m */; };
+		57D84AB61747D0E400B84754 /* GeocacheAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 57D84AB51747D0E300B84754 /* GeocacheAnnotation.m */; };
+		57D84ACD1747DC5E00B84754 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 57D84ABA1747DC5E00B84754 /* SBJsonParser.m */; };
+		57D84ACE1747DC5E00B84754 /* SBJsonStreamParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 57D84ABC1747DC5E00B84754 /* SBJsonStreamParser.m */; };
+		57D84ACF1747DC5E00B84754 /* SBJsonStreamParserAccumulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 57D84ABE1747DC5E00B84754 /* SBJsonStreamParserAccumulator.m */; };
+		57D84AD01747DC5E00B84754 /* SBJsonStreamParserAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 57D84AC01747DC5E00B84754 /* SBJsonStreamParserAdapter.m */; };
+		57D84AD11747DC5E00B84754 /* SBJsonStreamParserState.m in Sources */ = {isa = PBXBuildFile; fileRef = 57D84AC21747DC5E00B84754 /* SBJsonStreamParserState.m */; };
+		57D84AD21747DC5E00B84754 /* SBJsonStreamTokeniser.m in Sources */ = {isa = PBXBuildFile; fileRef = 57D84AC41747DC5E00B84754 /* SBJsonStreamTokeniser.m */; };
+		57D84AD31747DC5E00B84754 /* SBJsonStreamWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 57D84AC61747DC5E00B84754 /* SBJsonStreamWriter.m */; };
+		57D84AD41747DC5E00B84754 /* SBJsonStreamWriterAccumulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 57D84AC81747DC5E00B84754 /* SBJsonStreamWriterAccumulator.m */; };
+		57D84AD51747DC5E00B84754 /* SBJsonStreamWriterState.m in Sources */ = {isa = PBXBuildFile; fileRef = 57D84ACA1747DC5E00B84754 /* SBJsonStreamWriterState.m */; };
+		57D84AD61747DC5E00B84754 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 57D84ACC1747DC5E00B84754 /* SBJsonWriter.m */; };
+		57D84AF71747F7DA00B84754 /* GenericPinAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 57D84AEF1747F7DA00B84754 /* GenericPinAnnotationView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		57D84AF81747F7DA00B84754 /* MultiRowAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 57D84AF11747F7DA00B84754 /* MultiRowAnnotation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		57D84AF91747F7DA00B84754 /* MultiRowCalloutAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 57D84AF41747F7DA00B84754 /* MultiRowCalloutAnnotationView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		57D84AFA1747F7DA00B84754 /* MultiRowCalloutCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 57D84AF61747F7DA00B84754 /* MultiRowCalloutCell.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		57D84AFD1748C7E700B84754 /* green-pin256.png in Resources */ = {isa = PBXBuildFile; fileRef = 57D84AFC1748C7E700B84754 /* green-pin256.png */; };
+		57D84AFF1748C84100B84754 /* green-pin32.png in Resources */ = {isa = PBXBuildFile; fileRef = 57D84AFE1748C84100B84754 /* green-pin32.png */; };
+		57D84B031748CBB600B84754 /* box-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 57D84B021748CBB600B84754 /* box-32.png */; };
+		57D84B051748CCB600B84754 /* glyphish-map.png in Resources */ = {isa = PBXBuildFile; fileRef = 57D84B041748CCB600B84754 /* glyphish-map.png */; };
+		57D84B081748D38F00B84754 /* CacheDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57D84B071748D38F00B84754 /* CacheDetailViewController.m */; };
+		57D84B0B1748DCBE00B84754 /* wood_1_@2X.png in Resources */ = {isa = PBXBuildFile; fileRef = 57D84B091748DCBE00B84754 /* wood_1_@2X.png */; };
+		57D84B0C1748DCBE00B84754 /* wood_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 57D84B0A1748DCBE00B84754 /* wood_1.png */; };
+		57D84B101748E77A00B84754 /* green-ok-icon-48.png in Resources */ = {isa = PBXBuildFile; fileRef = 57D84B0D1748E77900B84754 /* green-ok-icon-48.png */; };
+		57D84B111748E77A00B84754 /* red-cross-icon-48.png in Resources */ = {isa = PBXBuildFile; fileRef = 57D84B0E1748E77A00B84754 /* red-cross-icon-48.png */; };
+		57D84B121748E77A00B84754 /* yellow-notes-icon-48.png in Resources */ = {isa = PBXBuildFile; fileRef = 57D84B0F1748E77A00B84754 /* yellow-notes-icon-48.png */; };
+		57D84B151748FDDA00B84754 /* CacheLogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57D84B141748FDD900B84754 /* CacheLogViewController.m */; };
+		57D84B181749002600B84754 /* LogEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 57D84B171749002600B84754 /* LogEntry.m */; };
+		57D84B1B1749047400B84754 /* LogCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 57D84B1A1749047400B84754 /* LogCell.m */; };
+		57D84B1D174907FF00B84754 /* 63-runner.png in Resources */ = {isa = PBXBuildFile; fileRef = 57D84B1C174907FF00B84754 /* 63-runner.png */; };
+		57D84B1F1749098800B84754 /* amberrice.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 57D84B1E1749098800B84754 /* amberrice.jpg */; };
+		57D84B2117490A8500B84754 /* trophy-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 57D84B2017490A8500B84754 /* trophy-icon.png */; };
+		57D84B2317490BBA00B84754 /* people-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 57D84B2217490BB900B84754 /* people-icon.png */; };
+		57D84B2517490C9700B84754 /* folder-clock-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 57D84B2417490C9700B84754 /* folder-clock-icon.png */; };
+		57D84B271749117100B84754 /* 117-todo.png in Resources */ = {isa = PBXBuildFile; fileRef = 57D84B261749117100B84754 /* 117-todo.png */; };
+		57D84B2A174911EE00B84754 /* LogService.m in Sources */ = {isa = PBXBuildFile; fileRef = 57D84B29174911EE00B84754 /* LogService.m */; };
+		57D84B301749180100B84754 /* UserLogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57D84B2F1749180000B84754 /* UserLogViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -107,6 +144,69 @@
 		57D84AAA1747B77300B84754 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		57D84AAC1747B77800B84754 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		57D84AAE1747B78500B84754 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		57D84AB11747B8D400B84754 /* Geocache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Geocache.h; path = OCRestAPI/Entities/Geocache.h; sourceTree = "<group>"; };
+		57D84AB21747B8D400B84754 /* Geocache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Geocache.m; path = OCRestAPI/Entities/Geocache.m; sourceTree = "<group>"; };
+		57D84AB41747D0E300B84754 /* GeocacheAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GeocacheAnnotation.h; path = Map/GeocacheAnnotation.h; sourceTree = "<group>"; };
+		57D84AB51747D0E300B84754 /* GeocacheAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GeocacheAnnotation.m; path = Map/GeocacheAnnotation.m; sourceTree = "<group>"; };
+		57D84AB81747DC5E00B84754 /* SBJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJson.h; sourceTree = "<group>"; };
+		57D84AB91747DC5E00B84754 /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		57D84ABA1747DC5E00B84754 /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		57D84ABB1747DC5E00B84754 /* SBJsonStreamParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParser.h; sourceTree = "<group>"; };
+		57D84ABC1747DC5E00B84754 /* SBJsonStreamParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParser.m; sourceTree = "<group>"; };
+		57D84ABD1747DC5E00B84754 /* SBJsonStreamParserAccumulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserAccumulator.h; sourceTree = "<group>"; };
+		57D84ABE1747DC5E00B84754 /* SBJsonStreamParserAccumulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserAccumulator.m; sourceTree = "<group>"; };
+		57D84ABF1747DC5E00B84754 /* SBJsonStreamParserAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserAdapter.h; sourceTree = "<group>"; };
+		57D84AC01747DC5E00B84754 /* SBJsonStreamParserAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserAdapter.m; sourceTree = "<group>"; };
+		57D84AC11747DC5E00B84754 /* SBJsonStreamParserState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserState.h; sourceTree = "<group>"; };
+		57D84AC21747DC5E00B84754 /* SBJsonStreamParserState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserState.m; sourceTree = "<group>"; };
+		57D84AC31747DC5E00B84754 /* SBJsonStreamTokeniser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamTokeniser.h; sourceTree = "<group>"; };
+		57D84AC41747DC5E00B84754 /* SBJsonStreamTokeniser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamTokeniser.m; sourceTree = "<group>"; };
+		57D84AC51747DC5E00B84754 /* SBJsonStreamWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriter.h; sourceTree = "<group>"; };
+		57D84AC61747DC5E00B84754 /* SBJsonStreamWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriter.m; sourceTree = "<group>"; };
+		57D84AC71747DC5E00B84754 /* SBJsonStreamWriterAccumulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriterAccumulator.h; sourceTree = "<group>"; };
+		57D84AC81747DC5E00B84754 /* SBJsonStreamWriterAccumulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriterAccumulator.m; sourceTree = "<group>"; };
+		57D84AC91747DC5E00B84754 /* SBJsonStreamWriterState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriterState.h; sourceTree = "<group>"; };
+		57D84ACA1747DC5E00B84754 /* SBJsonStreamWriterState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriterState.m; sourceTree = "<group>"; };
+		57D84ACB1747DC5E00B84754 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		57D84ACC1747DC5E00B84754 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		57D84AEE1747F7DA00B84754 /* GenericPinAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GenericPinAnnotationView.h; sourceTree = "<group>"; };
+		57D84AEF1747F7DA00B84754 /* GenericPinAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GenericPinAnnotationView.m; sourceTree = "<group>"; };
+		57D84AF01747F7DA00B84754 /* MultiRowAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiRowAnnotation.h; sourceTree = "<group>"; };
+		57D84AF11747F7DA00B84754 /* MultiRowAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiRowAnnotation.m; sourceTree = "<group>"; };
+		57D84AF21747F7DA00B84754 /* MultiRowAnnotationProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiRowAnnotationProtocol.h; sourceTree = "<group>"; };
+		57D84AF31747F7DA00B84754 /* MultiRowCalloutAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiRowCalloutAnnotationView.h; sourceTree = "<group>"; };
+		57D84AF41747F7DA00B84754 /* MultiRowCalloutAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiRowCalloutAnnotationView.m; sourceTree = "<group>"; };
+		57D84AF51747F7DA00B84754 /* MultiRowCalloutCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiRowCalloutCell.h; sourceTree = "<group>"; };
+		57D84AF61747F7DA00B84754 /* MultiRowCalloutCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiRowCalloutCell.m; sourceTree = "<group>"; };
+		57D84AFC1748C7E700B84754 /* green-pin256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "green-pin256.png"; sourceTree = "<group>"; };
+		57D84AFE1748C84100B84754 /* green-pin32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "green-pin32.png"; sourceTree = "<group>"; };
+		57D84B021748CBB600B84754 /* box-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "box-32.png"; sourceTree = "<group>"; };
+		57D84B041748CCB600B84754 /* glyphish-map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "glyphish-map.png"; sourceTree = "<group>"; };
+		57D84B061748D38F00B84754 /* CacheDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CacheDetailViewController.h; sourceTree = "<group>"; };
+		57D84B071748D38F00B84754 /* CacheDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CacheDetailViewController.m; sourceTree = "<group>"; };
+		57D84B091748DCBE00B84754 /* wood_1_@2X.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wood_1_@2X.png"; sourceTree = "<group>"; };
+		57D84B0A1748DCBE00B84754 /* wood_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wood_1.png; sourceTree = "<group>"; };
+		57D84B0D1748E77900B84754 /* green-ok-icon-48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "green-ok-icon-48.png"; sourceTree = "<group>"; };
+		57D84B0E1748E77A00B84754 /* red-cross-icon-48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "red-cross-icon-48.png"; sourceTree = "<group>"; };
+		57D84B0F1748E77A00B84754 /* yellow-notes-icon-48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "yellow-notes-icon-48.png"; sourceTree = "<group>"; };
+		57D84B131748FDD900B84754 /* CacheLogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CacheLogViewController.h; sourceTree = "<group>"; };
+		57D84B141748FDD900B84754 /* CacheLogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CacheLogViewController.m; sourceTree = "<group>"; };
+		57D84B161749002600B84754 /* LogEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LogEntry.h; path = OCRestAPI/Entities/LogEntry.h; sourceTree = "<group>"; };
+		57D84B171749002600B84754 /* LogEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LogEntry.m; path = OCRestAPI/Entities/LogEntry.m; sourceTree = "<group>"; };
+		57D84B191749047300B84754 /* LogCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogCell.h; sourceTree = "<group>"; };
+		57D84B1A1749047400B84754 /* LogCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogCell.m; sourceTree = "<group>"; };
+		57D84B1C174907FF00B84754 /* 63-runner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "63-runner.png"; sourceTree = "<group>"; };
+		57D84B1E1749098800B84754 /* amberrice.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = amberrice.jpg; sourceTree = "<group>"; };
+		57D84B2017490A8500B84754 /* trophy-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "trophy-icon.png"; sourceTree = "<group>"; };
+		57D84B2217490BB900B84754 /* people-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "people-icon.png"; sourceTree = "<group>"; };
+		57D84B2417490C9700B84754 /* folder-clock-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "folder-clock-icon.png"; sourceTree = "<group>"; };
+		57D84B261749117100B84754 /* 117-todo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "117-todo.png"; sourceTree = "<group>"; };
+		57D84B28174911EE00B84754 /* LogService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogService.h; sourceTree = "<group>"; };
+		57D84B29174911EE00B84754 /* LogService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogService.m; sourceTree = "<group>"; };
+		57D84B2E1749180000B84754 /* UserLogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UserLogViewController.h; path = CachyGdansk/UserLogViewController.h; sourceTree = "<group>"; };
+		57D84B2F1749180000B84754 /* UserLogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UserLogViewController.m; path = CachyGdansk/UserLogViewController.m; sourceTree = "<group>"; };
+		57D84B311749190C00B84754 /* UserLogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserLogViewController.h; sourceTree = "<group>"; };
+		57D84B321749190D00B84754 /* UserLogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserLogViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +237,8 @@
 		57D84A2A1747730800B84754 = {
 			isa = PBXGroup;
 			children = (
+				57D84B2E1749180000B84754 /* UserLogViewController.h */,
+				57D84B2F1749180000B84754 /* UserLogViewController.m */,
 				57D84AAE1747B78500B84754 /* SystemConfiguration.framework */,
 				57D84AAC1747B77800B84754 /* StoreKit.framework */,
 				57D84AAA1747B77300B84754 /* Security.framework */,
@@ -175,12 +277,20 @@
 		57D84A3C1747730800B84754 /* CachyGdansk */ = {
 			isa = PBXGroup;
 			children = (
+				57D84AFB1748C7D800B84754 /* Images */,
+				57D84AB71747DC2F00B84754 /* SBJSON */,
 				57D84A7017479DAA00B84754 /* AFNetworking */,
 				57D84A6F17479B9C00B84754 /* OC REST API */,
 				57D84A6B1747978E00B84754 /* Map */,
 				57D84A451747730800B84754 /* AppDelegate.h */,
 				57D84A461747730800B84754 /* AppDelegate.m */,
 				57D84A4E1747730800B84754 /* MainStoryboard.storyboard */,
+				57D84B311749190C00B84754 /* UserLogViewController.h */,
+				57D84B321749190D00B84754 /* UserLogViewController.m */,
+				57D84B191749047300B84754 /* LogCell.h */,
+				57D84B1A1749047400B84754 /* LogCell.m */,
+				57D84B131748FDD900B84754 /* CacheLogViewController.h */,
+				57D84B141748FDD900B84754 /* CacheLogViewController.m */,
 				57D84A541747730800B84754 /* first.png */,
 				57D84A561747730800B84754 /* first@2x.png */,
 				57D84A5B1747730900B84754 /* second.png */,
@@ -207,8 +317,13 @@
 		57D84A6B1747978E00B84754 /* Map */ = {
 			isa = PBXGroup;
 			children = (
+				57D84AE01747F6CA00B84754 /* MultiRowCalloutAnnotation */,
 				57D84A641747742900B84754 /* MapViewController.h */,
 				57D84A651747742900B84754 /* MapViewController.m */,
+				57D84AB41747D0E300B84754 /* GeocacheAnnotation.h */,
+				57D84AB51747D0E300B84754 /* GeocacheAnnotation.m */,
+				57D84B061748D38F00B84754 /* CacheDetailViewController.h */,
+				57D84B071748D38F00B84754 /* CacheDetailViewController.m */,
 			);
 			name = Map;
 			sourceTree = "<group>";
@@ -216,6 +331,7 @@
 		57D84A6F17479B9C00B84754 /* OC REST API */ = {
 			isa = PBXGroup;
 			children = (
+				57D84AB01747B8AB00B84754 /* Entities */,
 				57D84A941747ACDD00B84754 /* OpenCachingServices */,
 				57D84A931747ACD100B84754 /* Engine */,
 			);
@@ -266,8 +382,103 @@
 				57D84A961747AD1900B84754 /* CachesService.m */,
 				57D84A981747AD3000B84754 /* AbstractService.h */,
 				57D84A991747AD3000B84754 /* AbstractService.m */,
+				57D84B28174911EE00B84754 /* LogService.h */,
+				57D84B29174911EE00B84754 /* LogService.m */,
 			);
 			name = OpenCachingServices;
+			sourceTree = "<group>";
+		};
+		57D84AB01747B8AB00B84754 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				57D84AB11747B8D400B84754 /* Geocache.h */,
+				57D84AB21747B8D400B84754 /* Geocache.m */,
+				57D84B161749002600B84754 /* LogEntry.h */,
+				57D84B171749002600B84754 /* LogEntry.m */,
+			);
+			name = Entities;
+			sourceTree = "<group>";
+		};
+		57D84AB71747DC2F00B84754 /* SBJSON */ = {
+			isa = PBXGroup;
+			children = (
+				57D84AB81747DC5E00B84754 /* SBJson.h */,
+				57D84AB91747DC5E00B84754 /* SBJsonParser.h */,
+				57D84ABA1747DC5E00B84754 /* SBJsonParser.m */,
+				57D84ABB1747DC5E00B84754 /* SBJsonStreamParser.h */,
+				57D84ABC1747DC5E00B84754 /* SBJsonStreamParser.m */,
+				57D84ABD1747DC5E00B84754 /* SBJsonStreamParserAccumulator.h */,
+				57D84ABE1747DC5E00B84754 /* SBJsonStreamParserAccumulator.m */,
+				57D84ABF1747DC5E00B84754 /* SBJsonStreamParserAdapter.h */,
+				57D84AC01747DC5E00B84754 /* SBJsonStreamParserAdapter.m */,
+				57D84AC11747DC5E00B84754 /* SBJsonStreamParserState.h */,
+				57D84AC21747DC5E00B84754 /* SBJsonStreamParserState.m */,
+				57D84AC31747DC5E00B84754 /* SBJsonStreamTokeniser.h */,
+				57D84AC41747DC5E00B84754 /* SBJsonStreamTokeniser.m */,
+				57D84AC51747DC5E00B84754 /* SBJsonStreamWriter.h */,
+				57D84AC61747DC5E00B84754 /* SBJsonStreamWriter.m */,
+				57D84AC71747DC5E00B84754 /* SBJsonStreamWriterAccumulator.h */,
+				57D84AC81747DC5E00B84754 /* SBJsonStreamWriterAccumulator.m */,
+				57D84AC91747DC5E00B84754 /* SBJsonStreamWriterState.h */,
+				57D84ACA1747DC5E00B84754 /* SBJsonStreamWriterState.m */,
+				57D84ACB1747DC5E00B84754 /* SBJsonWriter.h */,
+				57D84ACC1747DC5E00B84754 /* SBJsonWriter.m */,
+			);
+			name = SBJSON;
+			sourceTree = "<group>";
+		};
+		57D84AE01747F6CA00B84754 /* MultiRowCalloutAnnotation */ = {
+			isa = PBXGroup;
+			children = (
+				57D84AEE1747F7DA00B84754 /* GenericPinAnnotationView.h */,
+				57D84AEF1747F7DA00B84754 /* GenericPinAnnotationView.m */,
+				57D84AF01747F7DA00B84754 /* MultiRowAnnotation.h */,
+				57D84AF11747F7DA00B84754 /* MultiRowAnnotation.m */,
+				57D84AF21747F7DA00B84754 /* MultiRowAnnotationProtocol.h */,
+				57D84AF31747F7DA00B84754 /* MultiRowCalloutAnnotationView.h */,
+				57D84AF41747F7DA00B84754 /* MultiRowCalloutAnnotationView.m */,
+				57D84AF51747F7DA00B84754 /* MultiRowCalloutCell.h */,
+				57D84AF61747F7DA00B84754 /* MultiRowCalloutCell.m */,
+			);
+			name = MultiRowCalloutAnnotation;
+			sourceTree = "<group>";
+		};
+		57D84AFB1748C7D800B84754 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				57D84B2417490C9700B84754 /* folder-clock-icon.png */,
+				57D84B2217490BB900B84754 /* people-icon.png */,
+				57D84B0D1748E77900B84754 /* green-ok-icon-48.png */,
+				57D84B0E1748E77A00B84754 /* red-cross-icon-48.png */,
+				57D84B0F1748E77A00B84754 /* yellow-notes-icon-48.png */,
+				57D84B091748DCBE00B84754 /* wood_1_@2X.png */,
+				57D84B0A1748DCBE00B84754 /* wood_1.png */,
+				57D84B001748C85500B84754 /* Maps */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		57D84B001748C85500B84754 /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				57D84B261749117100B84754 /* 117-todo.png */,
+				57D84B2017490A8500B84754 /* trophy-icon.png */,
+				57D84B1E1749098800B84754 /* amberrice.jpg */,
+				57D84B1C174907FF00B84754 /* 63-runner.png */,
+				57D84B041748CCB600B84754 /* glyphish-map.png */,
+				57D84B021748CBB600B84754 /* box-32.png */,
+				57D84B011748C87000B84754 /* Pins */,
+			);
+			name = Maps;
+			sourceTree = "<group>";
+		};
+		57D84B011748C87000B84754 /* Pins */ = {
+			isa = PBXGroup;
+			children = (
+				57D84AFE1748C84100B84754 /* green-pin32.png */,
+				57D84AFC1748C7E700B84754 /* green-pin256.png */,
+			);
+			name = Pins;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -330,6 +541,21 @@
 				57D84A571747730800B84754 /* first@2x.png in Resources */,
 				57D84A5C1747730900B84754 /* second.png in Resources */,
 				57D84A5E1747730900B84754 /* second@2x.png in Resources */,
+				57D84AFD1748C7E700B84754 /* green-pin256.png in Resources */,
+				57D84AFF1748C84100B84754 /* green-pin32.png in Resources */,
+				57D84B031748CBB600B84754 /* box-32.png in Resources */,
+				57D84B051748CCB600B84754 /* glyphish-map.png in Resources */,
+				57D84B0B1748DCBE00B84754 /* wood_1_@2X.png in Resources */,
+				57D84B0C1748DCBE00B84754 /* wood_1.png in Resources */,
+				57D84B101748E77A00B84754 /* green-ok-icon-48.png in Resources */,
+				57D84B111748E77A00B84754 /* red-cross-icon-48.png in Resources */,
+				57D84B121748E77A00B84754 /* yellow-notes-icon-48.png in Resources */,
+				57D84B1D174907FF00B84754 /* 63-runner.png in Resources */,
+				57D84B1F1749098800B84754 /* amberrice.jpg in Resources */,
+				57D84B2117490A8500B84754 /* trophy-icon.png in Resources */,
+				57D84B2317490BBA00B84754 /* people-icon.png in Resources */,
+				57D84B2517490C9700B84754 /* folder-clock-icon.png in Resources */,
+				57D84B271749117100B84754 /* 117-todo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,6 +582,28 @@
 				57D84A921747ABFA00B84754 /* ServiceEngineFactory.m in Sources */,
 				57D84A971747AD1900B84754 /* CachesService.m in Sources */,
 				57D84A9A1747AD3000B84754 /* AbstractService.m in Sources */,
+				57D84AB31747B8D400B84754 /* Geocache.m in Sources */,
+				57D84AB61747D0E400B84754 /* GeocacheAnnotation.m in Sources */,
+				57D84ACD1747DC5E00B84754 /* SBJsonParser.m in Sources */,
+				57D84ACE1747DC5E00B84754 /* SBJsonStreamParser.m in Sources */,
+				57D84ACF1747DC5E00B84754 /* SBJsonStreamParserAccumulator.m in Sources */,
+				57D84AD01747DC5E00B84754 /* SBJsonStreamParserAdapter.m in Sources */,
+				57D84AD11747DC5E00B84754 /* SBJsonStreamParserState.m in Sources */,
+				57D84AD21747DC5E00B84754 /* SBJsonStreamTokeniser.m in Sources */,
+				57D84AD31747DC5E00B84754 /* SBJsonStreamWriter.m in Sources */,
+				57D84AD41747DC5E00B84754 /* SBJsonStreamWriterAccumulator.m in Sources */,
+				57D84AD51747DC5E00B84754 /* SBJsonStreamWriterState.m in Sources */,
+				57D84AD61747DC5E00B84754 /* SBJsonWriter.m in Sources */,
+				57D84AF71747F7DA00B84754 /* GenericPinAnnotationView.m in Sources */,
+				57D84AF81747F7DA00B84754 /* MultiRowAnnotation.m in Sources */,
+				57D84AF91747F7DA00B84754 /* MultiRowCalloutAnnotationView.m in Sources */,
+				57D84AFA1747F7DA00B84754 /* MultiRowCalloutCell.m in Sources */,
+				57D84B081748D38F00B84754 /* CacheDetailViewController.m in Sources */,
+				57D84B151748FDDA00B84754 /* CacheLogViewController.m in Sources */,
+				57D84B181749002600B84754 /* LogEntry.m in Sources */,
+				57D84B1B1749047400B84754 /* LogCell.m in Sources */,
+				57D84B2A174911EE00B84754 /* LogService.m in Sources */,
+				57D84B301749180100B84754 /* UserLogViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

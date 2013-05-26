@@ -10,5 +10,10 @@
 #import "AbstractService.h"
 
 @interface CachesService : AbstractService
-- (void)nearestCachesWithCenter:(CLLocationCoordinate2D)centerCoordinate;
+
+- (void)nearestCachesWithCenter:(CLLocationCoordinate2D)centerCoordinate successBlock:(void (^)(id result))successBlock failureBlock:(void (^)(id result))failureBlock;
+
+- (void)nearestCacheCodesWithCenter:(CLLocationCoordinate2D)centerCoordinate successBlock:(void (^)(id result))successBlock failureBlock:(void (^)(id result))failureBlock;
+
+- (void)fullCashDescriptionsForCachesWithCodes:(NSArray *)cacheCodes successBlock:(void (^)(id result))successBlock failureBlock:(void (^)(id result))failureBlock;
 @end
